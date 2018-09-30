@@ -19,7 +19,7 @@
 				</tr>
 
 				<tr>
-					<td><input type="submit" value="Continue"> <a href="View_Inscription.php">Sign up</a></td>
+					<td><input type="submit" value="Continue"> <a href="application/views/View_Inscription.php">Sign up</a></td>
 				</tr>
 
 </table>
