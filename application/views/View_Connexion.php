@@ -15,7 +15,7 @@
 				</tr>
 
 				<tr>
-					<td>Mot de passe : <input type="password" name="mdp"></td>
+					<td>Mot de passe      : <input type="password" name="mdp"></td>
 				</tr>
 
 				<tr>
