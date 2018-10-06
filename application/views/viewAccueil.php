@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Accueil</a>
+              <a class="nav-link js-scroll-trigger" href="#services"></a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Offres</a>
@@ -47,7 +47,7 @@
               <a class="nav-link js-scroll-trigger" href="#about">Demandes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Echanges</a>
+              <a class="nav-link js-scroll-trigger" href="SIO2\Troc-de-temps\application\views\View_Inscription.php">Inscription</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact"></a>
