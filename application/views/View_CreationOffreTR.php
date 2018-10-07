@@ -57,7 +57,14 @@
 
 				<label class="label-input100" for="message">Nom du service</label>
 				<div class="wrap-input100 validate-input" data-validate = "Vous n'avez pas écrit">
-					<textarea id="message" class="input100" name="Message" placeholder="Ecrivez nous..."></textarea>
+					<select id="Service">
+                        <?php
+                        foreach($lesServices as $unService)
+                        {
+                            ?> <option value= "<?php echo $unService->idService ?>"> <?php echo $unService->nomService ?> </option>
+                            <?php
+                        }
+                        ?>
 					<span class="focus-input100"></span>
 				</div>
 
