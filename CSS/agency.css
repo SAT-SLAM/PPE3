@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: #E36A6A;
 }
 
 .text-primary {
@@ -176,7 +176,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("img/IMGA.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
