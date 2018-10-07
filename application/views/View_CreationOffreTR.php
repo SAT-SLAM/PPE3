@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Formulaire de contact</title>
+	<title>Création d'une offre</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
@@ -34,32 +34,28 @@
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" action="support.php" method="post">
 				<span class="contact100-form-title">
-					Contactez nous
+					Créer une offre
 				</span>
 
-				<label class="label-input100" for="first-name">Votre identité</label>
+				<label class="label-input100" for="numeroOffre">Numéro de l'offre</label>
 				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Le champ est requis">
-					<input id="first-name" class="input100" type="text" name="Prenom" placeholder="Prénom">
-					<span class="focus-input100"></span>
-				</div>
-				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Le champ est requis">
-					<input class="input100" type="text" name="Nom" placeholder="Nom">
+					<input id="idOffre" class="input100" type="text" name="idOffre">
 					<span class="focus-input100"></span>
 				</div>
 
-				<label class="label-input100" for="email">Votre e-mail</label>
-				<div class="wrap-input100 validate-input" data-validate = "Une e-mail valide est requis: ex@abc.xyz">
-					<input id="email" class="input100" type="text" name="Email" placeholder="Ex. example@email.com">
+				<label class="label-input100" for="description">Description de l'offre</label>
+				<div class="wrap-input100 validate-input" data-validate = "Vous n'avez pas donné de description">
+					<input id="descriptionOffre" class="input100" type="text" name="descriptionOffre">
 					<span class="focus-input100"></span>
 				</div>
 
-				<label class="label-input100" for="phone">Votre numéro de téléphone</label>
+				<label class="label-input100" for="phone">Date de l'offre</label>
 				<div class="wrap-input100">
-					<input id="phone" class="input100" type="text" name="Telephone" placeholder="Ex : 0602145201">
+					<input id="dateOffre" class="input100" type="text" name="dateOffre" placeholder="jj/mm/aaaa">
 					<span class="focus-input100"></span>
 				</div>
 
-				<label class="label-input100" for="message">Votre message</label>
+				<label class="label-input100" for="message">Nom du service</label>
 				<div class="wrap-input100 validate-input" data-validate = "Vous n'avez pas écrit">
 					<textarea id="message" class="input100" name="Message" placeholder="Ecrivez nous..."></textarea>
 					<span class="focus-input100"></span>
@@ -69,10 +65,16 @@
 					<input class="contact100-form-btn" type="submit" value="Envoyer">
 						
 					</input>
+                </div>
+                
+                <div class="container-contact100-form-btn">
+					<input class="contact100-form-btn" type="submit" value="Accueil">
+						
+					</input>
 				</div>
 			</form>
 
-			<div class="contact100-more flex-col-c-m" style="background-image: url('img/bg-01.jpg');">
+			<div class="contact100-more flex-col-c-m" style="background-image: url('img1/bg-01.jpg');">
 				<div class="flex-w size1 p-b-47">
 					<div class="txt1 p-r-25">
 						<span class="lnr lnr-map-marker"></span>
@@ -116,7 +118,7 @@
 						</span>
 
 						<span class="txt3">
-							paradisdesiles@gmail.com
+							sat_slam@gmail.com
 						</span>
 					</div>
 				</div>
@@ -129,14 +131,14 @@
 	<div id="dropDownSelect1"></div>
 
 <!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="vendor1/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<script src="vendor1/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor1/bootstrap/js/popper.js"></script>
+	<script src="vendor1/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
+	<script src="vendor1/select2/select2.min.js"></script>
 	<script>
 		$(".selection-2").select2({
 			minimumResultsForSearch: 20,
@@ -144,12 +146,12 @@
 		});
 	</script>
 <!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<script src="vendor1/daterangepicker/moment.min.js"></script>
+	<script src="vendor1/daterangepicker/daterangepicker.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script src="vendor1/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
-	<script src="js/main.js"></script>
+	<script src="js1/main.js"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 	<script>
