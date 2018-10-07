@@ -47,7 +47,7 @@
               <a class="nav-link js-scroll-trigger" href="#about">Demandes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="SIO2\Troc-de-temps\application\views\View_Inscription.php">Inscription</a>
+              <a class="nav-link js-scroll-trigger" href="../View_Inscription.php/">Inscription</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact"></a>
