@@ -47,9 +47,6 @@
               <a class="nav-link js-scroll-trigger" href="#about">Demandes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?= ('index.php/ControleurInscription/pageInscription'); ?>">Inscription</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact"></a>
             </li>
           </ul>
@@ -62,8 +59,8 @@
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in">Bienvenue sur notre site d'échange de services !</div>
-          <div class="intro-heading text-uppercase">C'est un plaisir de vous rencontrer</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Dites m'en plus</a>
+          <div class="intro-heading text-uppercase">Vous n'êtes pas encore inscrit ?</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Inscrivez-vous !</a>
         </div>
       </div>
     </header>
