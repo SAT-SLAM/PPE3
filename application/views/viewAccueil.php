@@ -47,9 +47,6 @@
               <a class="nav-link js-scroll-trigger" href="#about">Demandes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="SIO2\Troc-de-temps\application\views\View_Inscription.php">Inscription</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact"></a>
             </li>
           </ul>
@@ -62,52 +59,14 @@
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in">Bienvenue sur notre site d'échange de services !</div>
-          <div class="intro-heading text-uppercase">C'est un plaisir de vous rencontrer</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Dites m'en plus</a>
+          <div class="intro-heading text-uppercase">Vous n'êtes pas encore inscrit ?</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Inscrivez-vous !</a>
         </div>
       </div>
     </header>
 
 
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#"></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
+    
 
     <!-- Portfolio Modals -->
 

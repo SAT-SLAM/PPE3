@@ -2,7 +2,7 @@
 
 class ControleurInscription extends CI_Controller
 {
-    public function index()
+    public function pageInscription()
     {
         $this->load->model('Model_Inscription');
         $this->load->view('View_Inscription');
