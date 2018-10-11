@@ -47,7 +47,7 @@
               <a class="nav-link js-scroll-trigger" href="#about">Demandes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact"></a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurInscription/pageInscription') ?>">Inscription</a>
             </li>
           </ul>
         </div>

@@ -1,6 +1,6 @@
 <?php
 
-class ControleurInscription extends CI_Controller
+class ControlerInscription extends CI_Controller
 {
     public function pageInscription()
     {
