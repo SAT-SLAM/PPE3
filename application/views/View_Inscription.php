@@ -23,8 +23,8 @@
   <div class="container__child signup__thumbnail">
     
     <div class="thumbnail__content text-center">
-      <h1 class="heading--primary">Bienvenue sur notre page d'inscription</h1>
-      
+      <h1 class="heading--primary">Votre image</h1>
+      <input type="file" name="photoUser"/>      
     </div>
     
     <div class="signup__overlay"></div>

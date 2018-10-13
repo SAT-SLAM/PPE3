@@ -77,7 +77,7 @@ a,
 }
 
 .thumbnail__content {
-  align-self: center;
+  top : -10em;
 }
 
 h1,
