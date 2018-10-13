@@ -6,6 +6,7 @@ class ControlerInscription extends CI_Controller
     {
         $this->load->model('Model_Inscription');
         $this->load->view('View_Inscription');
+        $this->load->helper('url');
     }
 }
 ?>
