@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>PPE3</title>
+    <title>SAT</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -58,7 +58,7 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Bienvenue sur notre site d'échange de services !</div>
+          <div class="intro-lead-in">Bienvenue sur notre site d'échange de services SAT !</div>
           <div class="intro-heading text-uppercase">Vous n'êtes pas encore inscrit ?</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Inscrivez-vous !</a>
         </div>
