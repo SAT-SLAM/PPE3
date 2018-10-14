@@ -23,9 +23,9 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="CSS/util.css">
-	<link rel="stylesheet" type="text/css" href="CSS/main.css">
-	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>CSS/styles.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/util.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/main.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/styles.css">
 <!--===============================================================================================-->
 </head>
 <body>
