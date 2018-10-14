@@ -1,5 +1,5 @@
 <?php
-class Model_Accueil extends CI_Model
+class Model_PageDeProfil extends CI_Model
 {
 
 }
