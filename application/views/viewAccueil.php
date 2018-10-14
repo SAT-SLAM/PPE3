@@ -41,13 +41,13 @@
               <a class="nav-link js-scroll-trigger" href="#services"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Offres</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurCreationOffre/creationOffre') ?>">Offres</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">Demandes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Utilisateurs connectés</a>
+              <a class="nav-link js-scroll-trigger" href="#team">Nos utilisateurs</a>
             </li>
           </ul>
         </div>
@@ -70,14 +70,14 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Nos incroyables utilisateurs connectés</h2>
+            <h2 class="section-heading text-uppercase">Nos incroyables utilisateurs !</h2>
             <h3 class="section-subheading text-muted">                                       </h3>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <img class="mx-auto rounded-circle" url="img/team/1.jpg" alt="">
               <h4>Kay Garland</h4>
               <p class="text-muted">Lead Designer</p>
               <ul class="list-inline social-buttons">
