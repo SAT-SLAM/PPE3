@@ -78,9 +78,7 @@
                 </div>
                 
                 <div class="container-contact100-form-btn">
-					<input class="contact100-form-btn" value="Accueil" type="submit" href="<?php echo site_url('ControleurAccueil/index') ?>">
-						
-					</input>
+					<a class="contact100-form-btn"  href="<?php echo site_url('ControleurAccueil/index') ?>">Accueil</a>
 				</div>
 			</form>
 

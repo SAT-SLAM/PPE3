@@ -11,7 +11,7 @@
     <title>SAT</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -21,7 +21,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="CSS/agency.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>CSS/agency.min.css" rel="stylesheet">
 
   </head>
 
@@ -77,7 +77,7 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" url="img/team/1.jpg" alt="">
+              <img class="mx-auto rounded-circle" url="https://images-na.ssl-images-amazon.com/images/I/51MSCwgwtKL._SX383_BO1,204,203,200_.jpg" alt="">
               <h4>Kay Garland</h4>
               <p class="text-muted">Lead Designer</p>
               <ul class="list-inline social-buttons">
@@ -163,11 +163,11 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="JS/jqBootstrapValidation.js"></script>
+    <script src="JS/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>JS/agency.min.js" ></script>
 
   </body>
 
