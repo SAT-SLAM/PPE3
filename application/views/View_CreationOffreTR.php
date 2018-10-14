@@ -7,24 +7,25 @@
 <!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="img/airplane.png"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor1/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap1/css/bootstrap.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts1/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts1/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor1/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor1/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor1/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor1/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor1/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css1/util.css">
-	<link rel="stylesheet" type="text/css" href="css1/main.css">
+	<link rel="stylesheet" type="text/css" href="CSS/util.css">
+	<link rel="stylesheet" type="text/css" href="CSS/main.css">
+	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>CSS/styles.css">
 <!--===============================================================================================-->
 </head>
 <body>
@@ -57,14 +58,16 @@
 
 				<label class="label-input100" for="message">Nom du service</label>
 				<div class="wrap-input100 validate-input" data-validate = "Vous n'avez pas écrit">
-					<select id="Service">
-                        <?php
+						<?php 
+						echo "<select id='lstServices'>" ;
                         foreach($lesServices as $unService)
                         {
-                            ?> <option value= "<?php echo $unService->idService ?>"> <?php echo $unService->nomService ?> </option>
-                            <?php
+                          echo "<option value='" .$unService->idService. "'>".$unService->nomService."</option>";
+                        
                         }
-                        ?>
+                        
+					echo "</select>" ;
+					?>
 					<span class="focus-input100"></span>
 				</div>
 
@@ -75,7 +78,7 @@
                 </div>
                 
                 <div class="container-contact100-form-btn">
-					<input class="contact100-form-btn" type="submit" value="Accueil">
+					<input class="contact100-form-btn" value="Accueil" type="submit" href="<?php echo site_url('ControleurAccueil/index') ?>">
 						
 					</input>
 				</div>
@@ -138,14 +141,14 @@
 	<div id="dropDownSelect1"></div>
 
 <!--===============================================================================================-->
-	<script src="vendor1/jquery/jquery-3.2.1.min.js"></script>
+	<script src="vendor/jquery1/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor1/animsition/js/animsition.min.js"></script>
+	<script src="vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor1/bootstrap/js/popper.js"></script>
-	<script src="vendor1/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/bootstrap1/js/popper.js"></script>
+	<script src="vendor/bootstrap1/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor1/select2/select2.min.js"></script>
+	<script src="vendor/select2/select2.min.js"></script>
 	<script>
 		$(".selection-2").select2({
 			minimumResultsForSearch: 20,
@@ -153,12 +156,12 @@
 		});
 	</script>
 <!--===============================================================================================-->
-	<script src="vendor1/daterangepicker/moment.min.js"></script>
-	<script src="vendor1/daterangepicker/daterangepicker.js"></script>
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor1/countdowntime/countdowntime.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
-	<script src="js1/main.js"></script>
+	<script src="JS/main.js"></script>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 	<script>
