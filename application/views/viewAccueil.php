@@ -38,16 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurCreationOffre/creationOffre') ?>">Offres</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Demandes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Nos utilisateurs</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurPageDeProfil/PageDeProfile') ?>">Page</a>
             </li>
           </ul>
         </div>
@@ -77,7 +68,7 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" url="https://images-na.ssl-images-amazon.com/images/I/51MSCwgwtKL._SX383_BO1,204,203,200_.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="https://www.biography.com/.image/t_share/MTQ3Mzg1Mzg5MzI4NDQzMDYz/tupac_shakur_photo_by_steve_eichner_archive_photos_getty_83928439.jpg" alt="">
               <h4>Kay Garland</h4>
               <p class="text-muted">Lead Designer</p>
               <ul class="list-inline social-buttons">

@@ -1,8 +1,8 @@
 <?php
 
-class ControleurAccueil extends CI_Controller
+class ControleurPageDeProfil extends CI_Controller
 {
-    public function index()
+    public function PageDeProfil()
     {
         $this->load->model('Model_PageDeProfil');
         $this->load->view('View_PageDeProfil');
