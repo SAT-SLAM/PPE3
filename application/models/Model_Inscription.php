@@ -3,15 +3,17 @@ class Model_Inscription extends CI_Model
 {
     public function insertUser($pNomUser, $pEmail, $pSexe, $pDateNaissance, $pLogin, $pMdp, $pPhotoUser){
        
-        //$sql = $this->db->query("insert into user values ('$pNomUser', '$pEmail', '$pSexe', '$pDateNaissance', '$pLogin', '$pMdp', '$pPhotoUser');");
-        //return $sql->exec($sql);  
+        //$retour = false;
+        //$bdd = new PDO('mysql:host=localhost;dbname=trocdetemps', 'root', '')
+        //     or die ('Error connexion with the data base');
+        //$requete = "insert into user values ('$pNomUser', '$pEmail', '$pSexe', '$pDateNaissance', '$pLogin', '$pMdp', '$pPhotoUser');";
+        //$retour = $bdd->exec($requete);
+        //return $retour;
         
-        $retour = false;
-        $bdd = new PDO('mysql:host=localhost;dbname=trocdetemps', 'root', '')
-             or die ('Error connexion with the data base');
-        $requete = "insert into user values ('$pNomUser', '$pEmail', '$pSexe', '$pDateNaissance', '$pLogin', '$pMdp', '$pPhotoUser');";
-        $retour = $bdd->exec($requete);
-        return $retour;
+        $sql = $this->db->query("insert into user values ('$pNomUser', '$pEmail', '$pSexe', '$pDateNaissance', '$pLogin', '$pMdp', '$pPhotoUser');");
+        return $sql->exec($sql);  
+        
+        
     }
 
     public function verifLogin(){
