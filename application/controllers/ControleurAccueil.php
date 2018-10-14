@@ -6,6 +6,7 @@ class ControleurAccueil extends CI_Controller
     {
         $this->load->model('Model_Accueil');
         $this->load->view('viewAccueil');
+        $this->load->helper('url');
     }
 }
 ?>
