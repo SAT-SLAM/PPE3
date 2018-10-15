@@ -35,22 +35,22 @@
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form" action="support.php" method="post">
 				<span class="contact100-form-title">
-					Créer une offre
+					Créer une nouvelle demande
 				</span>
 
-				<label class="label-input100" for="numeroOffre">Numéro de l'offre</label>
+				<label class="label-input100" for="numeroOffre">Numéro de la demande</label>
 				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Le champ est requis">
 					<input id="idOffre" class="input100" type="text" name="idOffre">
 					<span class="focus-input100"></span>
 				</div>
 
-				<label class="label-input100" for="description">Description de l'offre</label>
+				<label class="label-input100" for="description">Description de la demande</label>
 				<div class="wrap-input100 validate-input" data-validate = "Vous n'avez pas donné de description">
 					<input id="descriptionOffre" class="input100" type="text" name="descriptionOffre">
 					<span class="focus-input100"></span>
 				</div>
 
-				<label class="label-input100" for="phone">Date de l'offre</label>
+				<label class="label-input100" for="phone">Date de la demande</label>
 				<div class="wrap-input100">
 					<input id="dateOffre" class="input100" type="text" name="dateOffre" placeholder="jj/mm/aaaa">
 					<span class="focus-input100"></span>

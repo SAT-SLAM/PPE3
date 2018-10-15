@@ -41,7 +41,7 @@
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurCreationOffre/index') ?>">Offres</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurCreationDemande/creationDemande') ?>">Demandes</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurCreationDemande/index') ?>">Demandes</a>
             </li>
           </ul>
         </div>
