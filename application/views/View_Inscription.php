@@ -30,7 +30,7 @@
     <div class="signup__overlay"></div>
   </div>
   <div class="container__child signup__form">
-    <form action="#">
+    <form method ="post" action="#">
       <div class="form-group">
       
       <div class="form-group">

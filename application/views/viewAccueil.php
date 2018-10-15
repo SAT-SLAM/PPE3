@@ -51,7 +51,7 @@
         <div class="intro-text">
           <div class="intro-lead-in">Bienvenue sur notre site d'échange de services SAT !</div>
           <div class="intro-heading text-uppercase">Vous n'êtes pas encore inscrit ?</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="<?php echo site_url('ControlerInscription/pageInscription') ?>">Inscrivez-vous !</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="<?php echo site_url('ControlerInscription/index') ?>">Inscrivez-vous !</a>
         </div>
       </div>
     </header>
