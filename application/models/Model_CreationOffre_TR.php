@@ -10,15 +10,11 @@ class Model_CreationOffre_TR extends CI_Model
     
     public function InsertNewOffre($idOffre, $descriptionOffre, $dateOffre, $idService, $idUser) 
     {
-        $sql = $this->db->query("select * from offre where idService = " .$idService. " and idUser =" .$idUser."'");
-        if(count($sql->result()) == 0)
-        {
-            $sql = $this->db->query(" insert into offre values (idOffre, descriptionOffre, dateOffre, idService) VALUES (?,?,?,?)");
-        return "Nouvelle offre crée !";
-        }
-        else{
-            return "Cette offre existe déjà !";
-        }
+       
+            $sql = $this->db->query("insert into offre values (".$idOffre.", ".$descriptionOffre.", ".$dateOffre.", ".$idService.", ".$idUser.");
+            return $sql->result();
+        
+        
         
     }
 }
