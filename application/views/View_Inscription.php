@@ -22,15 +22,11 @@
   <div class="signup__container">
   <div class="container__child signup__thumbnail">
     
-    <div class="thumbnail__content text-center">
-      <h1 class="heading--primary">Votre image</h1>
-      <input type="file" name="photoUser"/>      
-    </div>
     
     <div class="signup__overlay"></div>
   </div>
   <div class="container__child signup__form">
-    <form method ="post" action="#">
+    <form role="form" method ="post" action="<?php echo site_url('ControlerInscription/pageInscription') ?>">
       <div class="form-group">
       
       <div class="form-group">
@@ -48,18 +44,23 @@
       </div>
 
       <div class="form-group">
-      <label for="username">Date de naissance</label>
+      <label for="dateNaissance">Date de naissance</label>
         <input class="form-control" type="date" name="dateNaissance" id="dateNaissance" required />
       </div>
 
         <div class="form-group">
-        <label for="username">Login</label>
+        <label for="login">Login</label>
         <input class="form-control" type="text" name="login" id="login" required />
       </div>
 
       <div class="form-group">
-        <label for="email">Mot de passe</label>
+        <label for="mdp">Mot de passe</label>
         <input class="form-control" type="password" name="mdp" id="mdp" required />
+      </div>
+
+      <div class="form-group">
+        <label for="photoUser">URL de votre image</label>
+        <input class="form-control" type="text" name="photoUser" id="photoUser" />
       </div>
       
       <div class="m-t-lg">
@@ -67,9 +68,7 @@
           <li>
             <input class="btn btn--form" type="submit" value="Inscription" />
           </li>
-		  <br>
-      <br>
-          <li>
+		  
             <a class="signup__link" href="<?php echo site_url('ControleurConnexion/pageConnexion') ?>">Je suis déjà membre</a>
           </li>
         </ul>
