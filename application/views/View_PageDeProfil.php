@@ -380,15 +380,12 @@
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="https://www.biography.com/.image/t_share/MTQ3Mzg1Mzg5MzI4NDQzMDYz/tupac_shakur_photo_by_steve_eichner_archive_photos_getty_83928439.jpg" alt="">
-              <h4>
-              
-                <?php
-                  echo "<option value='" .$unUser->idUser. "'>".$unUser->nomUser." ".$unUser->prenomUser."</option>";
-                ?>
-              
-              
-              </h4>
-              <p class="text-muted">
+                <h4>
+                  <?php
+                    echo "<option value='" .$unUser->idUser. "'>".$unUser->nomUser."</option>";
+                  ?>
+                </h4>
+               <p class="text-muted">
               </p>
             </div>
           </div>
