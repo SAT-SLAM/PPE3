@@ -52,7 +52,7 @@
 
 				<label class="label-input100" for="phone">Date de l'offre</label>
 				<div class="wrap-input100">
-					<input id="dateOffre" class="input100" type="text" name="dateOffre" placeholder="jj/mm/aaaa">
+					<input id="dateOffre" class="input100" type="date" name="dateOffre" placeholder="jj/mm/aaaa">
 					<span class="focus-input100"></span>
 				</div>
 
