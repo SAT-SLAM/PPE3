@@ -26,7 +26,24 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/util.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/main.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/styles.css">
-<!--===============================================================================================-->
+	<script type="text/javascript" src="./JS/mesFonctions.js"></script>
+	<script type="text/javascript">
+$
+(
+	function()
+	{
+		$('#btnValider').click
+                (
+                    function()
+                    {
+                        InsertNewOffre();
+                    }
+                );
+            }
+        );
+	}
+)
+</script>
 </head>
 <body>
 
@@ -72,7 +89,7 @@
 				</div>
 
 				<div class="container-contact100-form-btn">
-					<input class="contact100-form-btn" type="submit" value="Envoyer">
+					<input class="contact100-form-btn" type="button" id="btnValider" value="Envoyer">
 						
 					</input>
                 </div>
