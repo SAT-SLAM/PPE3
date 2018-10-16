@@ -2,7 +2,7 @@
 
 class ControleurPageDeProfil extends CI_Controller
 {
-    public function PageDeProfil()
+    public function index()
     {
         $this->load->model('Model_PageDeProfil');
         $data['lesUsers']=$this->Model_PageDeProfil->getUser();
