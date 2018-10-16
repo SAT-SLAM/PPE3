@@ -376,7 +376,17 @@
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="https://www.biography.com/.image/t_share/MTQ3Mzg1Mzg5MzI4NDQzMDYz/tupac_shakur_photo_by_steve_eichner_archive_photos_getty_83928439.jpg" alt="">
-              <h4>Kay Garland</h4>
+              <h4><?php
+              
+              echo "<select id='lstUsers'>";
+              foreach($lesUsers as $unUser)
+                {
+                   echo "<option value='".$unUser->nomUser."'</option>";
+                }
+              echo "</select>";
+              
+              ?>
+              </h4>
               <p class="text-muted">Lead Designer</p>
               <ul class="list-inline social-buttons">
                 
