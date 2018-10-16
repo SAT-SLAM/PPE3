@@ -373,35 +373,34 @@
           </div>
         </div>
         <div class="row">
+        <?php
+              foreach($lesUsers as $unUser){
+
+              ?>
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="https://www.biography.com/.image/t_share/MTQ3Mzg1Mzg5MzI4NDQzMDYz/tupac_shakur_photo_by_steve_eichner_archive_photos_getty_83928439.jpg" alt="">
               <h4>
-              <?php
               
-              echo "<select id='lstUsers'>";
-              foreach($lesUsers as $unUser)
-                {
-                  echo "<option value='" .$unUser->idUser. "'>".$unUser->nomUser."</option>";
-                }
-              echo "</select>";
+                <?php
+                  echo "<option value='" .$unUser->idUser. "'>".$unUser->nomUser." ".$unUser->prenomUser."</option>";
+                ?>
               
-              ?>
+              
               </h4>
-              <p class="text-muted">Lead Designer</p>
-              <ul class="list-inline social-buttons">
-                
-              </ul>
+              <p class="text-muted">
+              </p>
             </div>
           </div>
+          <?php
+              }
+          ?>
           <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="<?php echo base_url(); ?>img/team/2.jpg" alt="">
               <h4>Larry Parker</h4>
               <p class="text-muted">Lead Marketer</p>
-              <ul class="list-inline social-buttons">
-                
-              </ul>
+              
             </div>
           </div>
           <div class="col-sm-4">
@@ -409,9 +408,7 @@
               <img class="mx-auto rounded-circle" src="<?php echo base_url(); ?>img/team/3.jpg" alt="">
               <h4>Diana Pertersen</h4>
               <p class="text-muted">Lead Developer</p>
-              <ul class="list-inline social-buttons">
-                </li>
-              </ul>
+              
             </div>
           </div>
         </div>
