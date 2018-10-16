@@ -30,7 +30,7 @@
     <div class="signup__overlay"></div>
   </div>
   <div class="container__child signup__form">
-    <form method ="post" action="#">
+    <form role="form" method ="post" action="<?php echo site_url('ControlerInscription/pageInscription') ?>">
       <div class="form-group">
       
       <div class="form-group">
