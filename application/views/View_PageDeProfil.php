@@ -43,6 +43,12 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurCreationDemande/index') ?>">Demandes</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('#') ?>">Deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('#') ?>">Déconnexion</a>
+            </li>
           </ul>
         </div>
       </div>
