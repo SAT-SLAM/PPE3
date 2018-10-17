@@ -14,6 +14,21 @@
 
       <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>CSS/style.css">
 
+       <script type="text/javascript">
+        $
+        (
+            function()
+            {
+                $('#btnValider').click
+                (
+                    function()
+                    {
+                        InsertNewTime();
+                    }
+                );
+            }
+        );
+    </script>
   
 </head>
 
@@ -66,7 +81,7 @@
       <div class="m-t-lg">
         <ul class="list-inline">
           <li>
-            <input class="btn btn--form" type="submit" value="Inscription" />
+            <input class="btn btn--form" type="submit" id ="btnValider" value="Inscription" />
           </li>
 		  
             <a class="signup__link" href="<?php echo site_url('ControleurConnexion/pageConnexion') ?>">Je suis déjà membre</a>
