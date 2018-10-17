@@ -1,5 +1,4 @@
 <?php
-
 class ControleurPageDeProfil extends CI_Controller
 {
     public function index()

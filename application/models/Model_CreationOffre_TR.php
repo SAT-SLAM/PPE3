@@ -18,4 +18,4 @@ class Model_CreationOffre_TR extends CI_Model
         
     }
 }
-?>
+};
