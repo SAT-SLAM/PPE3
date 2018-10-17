@@ -17,6 +17,7 @@ class ControleurCreationOffre extends CI_Controller
             $idService = $_GET['idService'];
             $idUser = $_GET['idUser'];
             $this->load->model('Model_CreationOffre_TR');
+            $data['lesOffres'] = $this->Model_CreationOffre_TR->InsertNewOffre();
             
     }
 }
