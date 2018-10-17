@@ -9,20 +9,20 @@ class ControlerInscription extends CI_Controller
         
     }
 
-    public function InscriptionUser(){
+    public function insertUser(){
 
-            $this->Model_Inscription->insertUser($_POST["nomUser"], $_POST["sexe"], $_POST["email"], $_POST["dateNaissance"], $_POST["login"], $_POST["mdp"], $_POST["photoUser"]);
-            $data["nomUser"] = $_POST["nomUser"];
-            $data["sexe"] = $_POST["sexe"];
-            $data["email"] = $_POST["email"];
-            $data["dateNaissance"] = $_POST["dateNaissance"];
-            $data["login"] = $_POST["login"];
-            $data["mdp"] = $_POST["mdp"];
-            $data["photoUser"] = $_POST["photoUser"];
-            $this->load->view("View_PageDeProfil");
+            $nomUser = $_POST['nomUser'];
+            $sexe = $_POST['sexe'];
+            $email = $_POST['email'];
+            $dateNaissance = $_POST['dateNaissance'];
+            $login = $_POST['login'];
+            $mdp = $_POST['mdp'];
+            $photoUser = $_POST['photoUser'];
+            $this->load->model("Model_Inscription");
+            $data['message'] = $this->model_Inscription->insertUser($nomUser, $sexe, $email, $dateNaissance, $login, $mdp, $photoUser);
+            $this->load->view('View_PageDeProfil');
         
     }
 
     
 }
-?>
