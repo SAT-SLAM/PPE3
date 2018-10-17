@@ -392,7 +392,10 @@
                     echo "<option value='" .$unUser->idUser. "'>".$unUser->nomUser."</option>";
                   ?>
                   <br>
-                  
+                    </div>
+                </h4>
+            </div>
+                  <div class="team-member">
                   <?php
                        if ($unUser->sexe == 0){
                          echo  '<img src="https://nsa39.casimages.com/img/2018/10/17/mini_181017020836938365.png" />';
@@ -402,9 +405,7 @@
                           echo '<img src="https://nsa39.casimages.com/img/2018/10/17/mini_181017020836876248.png" />';
 
                   ?>
-                    </div>
-                </h4>
-            </div>
+                  </div>
                   <p class="text-muted">
               </p>
           </div>
