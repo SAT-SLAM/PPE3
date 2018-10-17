@@ -14,7 +14,7 @@
     <link href="<?php echo base_url(); ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url(); ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -384,19 +384,29 @@
 
               ?>
           <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="https://www.biography.com/.image/t_share/MTQ3Mzg1Mzg5MzI4NDQzMDYz/tupac_shakur_photo_by_steve_eichner_archive_photos_getty_83928439.jpg" alt="">
-              <h4>
-              
-                <?php
-                  echo "<option value='" .$unUser->idUser. "'>".$unUser->nomUser."</option>";
-                ?>
-              
-              
-              </h4>
-              <p class="text-muted">
-              </p>
+            <div class="team-member1">
+              <img class="mx-auto rounded-circle" src="<?php echo $unUser->photoUser?>">
+              <div class="team-member">
+                <h4>
+                  <?php
+                    echo "<option value='" .$unUser->idUser. "'>".$unUser->nomUser."</option>";
+                  ?>
+                  <br>
+                  
+                  <?php
+                       if ($unUser->sexe == 0){
+                         echo  '<img src="https://nsa39.casimages.com/img/2018/10/17/mini_181017020836938365.png" />';
+                        
+                       }
+                        else
+                          echo '<img src="https://nsa39.casimages.com/img/2018/10/17/mini_181017020836876248.png" />';
+
+                  ?>
+                    </div>
+                </h4>
             </div>
+                  <p class="text-muted">
+              </p>
           </div>
           <?php
               }
