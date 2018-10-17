@@ -11,6 +11,8 @@ class ControleurCreationOffre extends CI_Controller
 
     public function newOffre()
     {
+            $this->load->library('form_validation');
+            $this->load->helper('form');
             $idOffre = $_GET['idOffre'];
             $descriptionOffre = $_GET['descriptionOffre'];
             $dateOffre = $_GET['dateOffre'];

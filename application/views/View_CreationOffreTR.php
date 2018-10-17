@@ -89,7 +89,7 @@ $
 				</div>
 
 				<div class="container-contact100-form-btn">
-					<input class="contact100-form-btn" type="button" id="btnValider" value="Envoyer">
+					<input class="contact100-form-btn" type="submit" id="btnValider" value="Envoyer">
 						
 					</input>
                 </div>
