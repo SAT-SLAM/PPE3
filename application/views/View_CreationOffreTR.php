@@ -75,7 +75,7 @@ $
 
 				<label class="label-input100" for="message">Nom du service</label>
 				<div class="wrap-input100 validate-input" data-validate = "Vous n'avez pas écrit">
-						<?php 
+				<?php 
 						echo "<select id='lstServices'>" ;
                         foreach($lesServices as $unService)
                         {
@@ -85,6 +85,8 @@ $
                         
 					echo "</select>" ;
 					?>
+				<input id="idService" class="input100" type="" name="idService">
+						
 					<span class="focus-input100"></span>
 				</div>
 

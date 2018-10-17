@@ -4,8 +4,8 @@ function InsertNewOffre()
     (
         {
             type:"GET",
-            url:"index.php/ControleurCreationOffre/newOffre",
-            data:"idOffre="+$('#lstEmployes').val()+"&idRayon="+$('#lstRayons').val()+"&date="+$('#txtDate').val()+"&newTemps="+$('#txtHeures').val(),
+            url:"index.php/ControleurOffres/newOffre",
+            data:"idOffre="+$('#idOffre').val()+"&descriptionOffre="+$('#descriptionOffre').val()+"&dateOffre="+$('#dateOffre').val()+"&idService="+$('#idService').val(),
             success:function(data)
             {
                 bootbox.alert(data);
