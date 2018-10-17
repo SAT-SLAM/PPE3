@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SAT</title>
+    <title>Page de profil</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url(); ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -58,8 +58,8 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Bonjour</div>
-          <div class="intro-heading text-uppercase">C'est un plaisir de vous revoir</div>
+         
+          <div class="intro-heading text-uppercase">C'est un plaisir de vous revoir ###</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#team">Nos utilisateurs</a>
         </div>
       </div>
