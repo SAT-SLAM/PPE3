@@ -12,7 +12,7 @@ class ControleurOffres extends CI_Controller
     public function updateOffre()
 {
     $this->load->model('Model_Offres');
-    $data['lesServices'] = $this->Model_Offres->getAllServices();
+    $data['lesServices'] = $this->Model_Offres->UpdateOffre();
     $this->load->view('View_GestionOffre', $data);
 }
 
@@ -27,9 +27,10 @@ class ControleurOffres extends CI_Controller
             $descriptionOffre = $_GET['descriptionOffre'];
             $dateOffre = $_GET['dateOffre'];
             $idService = $_GET['idService'];
-            $idUser = $_GET['$_SESSION['idUser']'];
+            //$idUser = $_GET['$_SESSION['idUser']'];
             $this->load->model('Model_Offres');
             $data['lesOffres'] = $this->Model_Offres->InsertNewOffre($idOffre, $descriptionOffre, $dateOffre, $idService, $idUser);
+            $this->load->view('view_Message',$data);
             
     }
 }

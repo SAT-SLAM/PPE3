@@ -30,6 +30,7 @@ function connexion()
             { 
                     $("input[name=login]").val("");
                     $("input[name=mdp]").val("");
+                    alert("Coucou");
             },
             error:function(data)
             {
