@@ -20,7 +20,7 @@
 
 <body>
 
-  <form role="form" method="post" action="<?php echo base_url('ControleurConnexion/login_user'); ?>">
+  <form role="form" method="post" action="<?php echo base_url('ControleurConnexion/accesConnexion'); ?>">
                         <fieldset>
                             <div class="form-group"  >
                                 <input class="form-control" placeholder="Login" name="login" type="text" required autofocus>
