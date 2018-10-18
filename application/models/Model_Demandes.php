@@ -1,6 +1,6 @@
 <?php
 
-class Model_GestionDemande extends CI_Model 
+class Model_Demandes extends CI_Model 
 {
     public function getAllServices()
     {

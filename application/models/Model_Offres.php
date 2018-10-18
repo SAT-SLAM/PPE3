@@ -1,6 +1,6 @@
 <?php
 
-class Model_CreationOffre_TR extends CI_Model
+class Model_Offres extends CI_Model
 {
     public function getAllServices()
     {
@@ -12,10 +12,14 @@ class Model_CreationOffre_TR extends CI_Model
     {
        
             $sql = $this->db->query("insert into offre values (".$idOffre.", ".$descriptionOffre.", ".$dateOffre.", ".$idService.", ".$idUser.")");
-            return $sql->result();
+            return "Nouvelle offre créée !";
         
-        
-        
+    }
+
+    public function UpdateOffre($descriptionOffre, $dateOffre)
+    {
+        //$sql = $this->db->query("update offre set descriptionOffre = "..", dateOffre =".." ");
+        return "Modification de l'offre faite !";
     }
 
 };

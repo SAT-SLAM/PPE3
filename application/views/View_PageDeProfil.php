@@ -2,7 +2,9 @@
 <html lang="en">
 
   <head>
-
+  <?php  
+     session_start();  
+  ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -39,10 +41,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurCreationOffre/index') ?>">Offres</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurOffres/index') ?>">Offres</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurCreationDemande/index') ?>">Demandes</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurDemandes/index') ?>">Demandes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url('#') ?>">Deals</a>
@@ -60,7 +62,7 @@
       <div class="container">
         <div class="intro-text">
          
-          <div class="intro-heading text-uppercase">C'est un plaisir de vous revoir ###</div>
+          <div class="intro-heading text-uppercase">C'est un plaisir de vous revoir</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#team">Nos utilisateurs</a>
         </div>
       </div>
@@ -69,7 +71,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Mes offres</h2>
+            <h2 class="section-heading text-uppercase">Mes offres <img src="www/SIO2/Troc-de-Temps/img/btnplus.jpg"/></h2>
             
           </div>
         </div>
@@ -119,7 +121,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Mes demandes</h2>
+            <h2 class="section-heading text-uppercase">Mes demandes <img src="www/SIO2/Troc-de-Temps/img/btnplus.jpg"/></h2>
             
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">

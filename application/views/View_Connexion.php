@@ -40,7 +40,7 @@
   <div class="container__child signup__thumbnail">
     
     <div class="thumbnail__content text-center">
-      <h1 class="heading--primary">Bonjour chère utilisateur</h1>
+      <h1 class="heading--primary">Bonjour cher(e) utilisateur(trice)</h1>
     </div>
     
     <div class="signup__overlay"></div>
