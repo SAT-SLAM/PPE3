@@ -47,10 +47,13 @@
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurDemandes/index') ?>">Nouvelle demande</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio" ?>Mes offres & demandes</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Mes offres & demandes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url('#') ?>">Deals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Nos utilisateurs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url('#') ?>">Déconnexion</a>
