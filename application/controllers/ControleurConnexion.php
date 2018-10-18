@@ -16,7 +16,7 @@ class ControleurConnexion extends CI_Controller
 
     public function accesConnexion($login, $mdp)
     {
-        if(isset($login == $_POST["login"] && $mdp == $_POST["mdp"])){
+        if(isset($login == $_POST["login"]) && isset($mdp == $_POST["mdp"])){
             redirect('ControleurPageDeProfil'/'index');
         }
         else{
