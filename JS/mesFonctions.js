@@ -26,13 +26,13 @@ function connexion()
         {
             type:"POST",
             data:"login="+$("input[name=login]").val()+"&mdp="+$("input[name=mdp]").val(),
+            url:"accesConnexion",
             success:function(data)
             { 
                     $("input[name=login]").val("");
                     $("input[name=mdp]").val("");
-                    alert("Coucou");
             },
-            error:function(data)
+            error:function()
             {
                 alert("Erreur: connexion");
             }
