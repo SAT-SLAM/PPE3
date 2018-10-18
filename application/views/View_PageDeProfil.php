@@ -31,7 +31,10 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+        <a class="navbar-brand js-scroll-trigger" ><!--<?php
+            session_start();
+              if (isset($_POST['login']) && isset($_POST['mdp'])) 
+                  $sql = "SELECT * FROM user WHERE LOGIN = ".$_POST['login']." AND PASS =".$_POST['mdp']; ?></a>-->
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -51,9 +54,6 @@
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url('#') ?>">Deals</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Nos utilisateurs</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url('#') ?>">Déconnexion</a>
             </li>
           </ul>
@@ -67,7 +67,7 @@
         <div class="intro-text">
          
           <div class="intro-heading text-uppercase">C'est un plaisir de vous revoir</div>
-          
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#team">Nos utilisateurs</a>
         </div>
       </div>
     </header>
@@ -75,7 +75,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Mes offres</h2>
+            <h2 class="section-heading text-uppercase">Mes offres <img src="www/SIO2/Troc-de-Temps/img/btnplus.jpg"/></h2>
             
           </div>
         </div>
@@ -125,7 +125,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Mes demandes</h2>
+            <h2 class="section-heading text-uppercase">Mes demandes <img src="www/SIO2/Troc-de-Temps/img/btnplus.jpg"/></h2>
             
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
