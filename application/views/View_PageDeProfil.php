@@ -41,10 +41,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurOffres/index') ?>">Offres</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurOffres/index') ?>">Nouvelle offre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurDemandes/index') ?>">Demandes</a>
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('ControleurDemandes/index') ?>">Nouvelle demande</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio" ?>Mes offres & demandes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="<?php echo site_url('#') ?>">Deals</a>
