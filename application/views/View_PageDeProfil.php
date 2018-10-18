@@ -22,6 +22,7 @@
 
     <!-- Custom styles for this template -->
     <link href="<?php echo base_url(); ?>CSS/agency.min.css" rel="stylesheet">
+    <script type="text/javascript" src="<?php echo base_url(); ?>JQuery/jquery-3.1.1.js"></script>
     
 
   </head>

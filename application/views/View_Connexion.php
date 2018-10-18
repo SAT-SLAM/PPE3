@@ -12,6 +12,7 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 <script type="text/javascript" src="<?php echo base_url(); ?>JS/mesFonctions.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>JQuery/jquery-3.1.1.js"></script>
 
       <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>CSS/style1.css">
 
@@ -20,7 +21,7 @@
     (
         function()
         {
-            $("#connexion").click(connexion);
+            $('#connexion').click(connexion);
             (
               function()
               {
