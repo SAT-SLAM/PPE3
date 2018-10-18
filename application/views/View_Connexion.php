@@ -11,7 +11,7 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
-<script type="text/javascript" src="JS/mesFonctions.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>JS/mesFonctions.js"></script>
 
       <link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>CSS/style1.css">
 
@@ -61,7 +61,7 @@
             <input class="btn btn--form" type="submit" id ="connexion" value="Connexion" />
           </li>
           <li>
-            <a class="signup__link" href="<?php echo site_url('ControlerInscription/pageInscription') ?>">Vous n'êtes pas encore membre ?</a>
+            <a class="signup__link" href="<?php echo site_url('ControlerInscription/index') ?>">Vous n'êtes pas encore membre ?</a>
           </li>
         </ul>
       </div>
