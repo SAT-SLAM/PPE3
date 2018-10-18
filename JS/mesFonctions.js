@@ -19,23 +19,23 @@ function InsertNewOffre()
     );     
 }
 
-function connexion()
-{
-    $.ajax
-    (
-        {
-            type:"POST",
-            data:"login="+$("input[name=login]").val()+"&mdp="+$("input[name=mdp]").val(),
-            url:"accesConnexion",
-            success:function(data)
-            { 
-                    $("input[name=login]").val("");
-                    $("input[name=mdp]").val("");
-            },
-            error:function()
-            {
-                alert("Erreur: connexion");
-            }
-        }
-    )
-}
+//function connexion()
+//{
+//    $.ajax
+//    (
+//        {
+//            type:"POST",
+//            data:"login="+$("input[name=login]").val()+"&mdp="+$("input[name=mdp]").val(),
+//            url:"accesConnexion",
+//            success:function(data)
+//            { 
+//                    $("input[name=login]").val("");
+//                    $("input[name=mdp]").val("");
+//            },
+//            error:function()
+//            {
+//                alert("Erreur: connexion");
+//            }
+//        }
+//    )
+//}
