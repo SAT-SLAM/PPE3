@@ -2,9 +2,7 @@
 <html lang="en">
 
   <head>
-  <?php  
-     session_start();  
-  ?>
+  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -69,7 +67,7 @@
         <div class="intro-text">
          
           <div class="intro-heading text-uppercase">C'est un plaisir de vous revoir</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#team">Nos utilisateurs</a>
+          
         </div>
       </div>
     </header>
