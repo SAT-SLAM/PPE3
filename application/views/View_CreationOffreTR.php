@@ -26,6 +26,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/util.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/main.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>CSS/styles.css">
+	<script type="text/javascript" src="./JQuery/jquery-3.1.1.js"></script>
 	<script type="text/javascript" src="./JS/mesFonctions.js"></script>
 	<script type="text/javascript">
 $
