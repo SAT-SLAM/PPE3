@@ -60,7 +60,7 @@
             <input class="btn btn--form" type="submit" id ="connexion" value="Connexion" />
           </li>
           <li>
-            <a class="signup__link" href="<?php echo site_url('ControlerInscription/pageInscription') ?>">Vous n'êtes pas encore membre ?</a>
+            <a class="signup__link" href="<?php echo site_url('ControlerInscription/index') ?>">Vous n'êtes pas encore membre ?</a>
           </li>
         </ul>
       </div>
