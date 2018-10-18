@@ -75,7 +75,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Mes offres <img src="www/SIO2/Troc-de-Temps/img/btnplus.jpg"/></h2>
+            <h2 class="section-heading text-uppercase">Mes offres</h2>
             
           </div>
         </div>
@@ -125,7 +125,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Mes demandes <img src="www/SIO2/Troc-de-Temps/img/btnplus.jpg"/></h2>
+            <h2 class="section-heading text-uppercase">Mes demandes</h2>
             
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
