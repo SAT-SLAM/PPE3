@@ -14,7 +14,7 @@ class ControleurConnexion extends CI_Controller
         $data["user"] = $this->Model_Connexion->getUser($_POST["login"], $_POST["mdp"]);
     }
 
-    public function accesConnexion()
+    function accesConnexion()
     {
         //$data=$this->Model_Connexion->getUser();
         //if($data){
